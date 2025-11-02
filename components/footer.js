@@ -204,7 +204,7 @@ export default function Footer() {
                 <XIcon size={28} />
               </motion.a>
               <motion.a
-                href="https://www.linkedin.com/company/ethercode-software/about/?viewAsMember=true"
+                href="https://www.linkedin.com/company/ethercode/about/?viewAsMember=true"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
@@ -214,7 +214,7 @@ export default function Footer() {
                 <Linkedin size={28} />
               </motion.a>
               <motion.a
-                href="https://github.com/ethercode-software"
+                href="https://github.com/ethercode"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"

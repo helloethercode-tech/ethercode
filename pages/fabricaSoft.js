@@ -47,15 +47,12 @@ const FabricaSoft = () => {
     { name: "JavaScript", icon: "/img/iconTech/JS.webp" },
     { name: "Typescript", icon: "/img/iconTech/TS.webp" },
     { name: "NodeJS", icon: "/img/iconTech/nodejstransparente.png" },
-    { name: "Python", icon: "/img/iconTech/python.png" },
     { name: "React", icon: "/img/iconTech/reactjs.png" },
     { name: "Nextjs", icon: "/img/iconTech/next.webp" },
-    { name: "Zoom", icon: "/img/iconTech/zoom.png" },
     { name: "Tailwind", icon: "/img/iconTech/Tailwind.png" },
     { name: "Supabase", icon: "/img/iconTech/supabase.png" },
     { name: "Sass", icon: "/img/iconTech/Sass.png" },
     { name: "Flutter", icon: "/img/iconTech/flutter.png" },
-    { name: "Figma", icon: "/img/iconTech/figma.png" },
     { name: "GitHub", icon: "/img/iconTech/github.png" },
     { name: "HTML", icon: "/img/iconTech/html.png" },
     { name: "CSS", icon: "/img/iconTech/CSS.png" },
@@ -63,6 +60,7 @@ const FabricaSoft = () => {
     { name: "Vercel", icon: "/img/iconTech/vercel.webp" },
     { name: "Docker", icon: "/img/iconTech/doker.png" },
     { name: "OpenAI", icon: "/img/iconTech/OpenAi.png" },
+    { name: "Python", icon: "/img/iconTech/python.png" },
     { name: "MongoDB", icon: "/img/iconTech/mongo2.png" },
   ];
 
@@ -378,7 +376,7 @@ const FabricaSoft = () => {
             className="mt-8 text-center"
           >
             <a
-              href="https://cal.com/ethercode-software/contanos-tu-idea"
+              href="https://cal.com/ethercode/contanos-tu-idea"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center rounded-full px-7 py-3

@@ -1,8 +1,8 @@
 'use client';
 
-import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useEffect, useMemo, useState } from 'react';
+import NavbarIndex from "../../components/NavbarIndex";
 
 const PHRASES = [
   'Tu app web lista para Google.',
@@ -23,15 +23,7 @@ export default function HeroKitInicial() {
   return (
     <>
       {/* Flecha hacia atrás */}
-      <Link
-        href="/"
-        className="fixed top-4 left-4 z-50 p-2 text-white/80 hover:text-cyan-300 transition"
-        aria-label="Volver al inicio"
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-        </svg>
-      </Link>
+      <NavbarIndex/>
 
       <section
         className="relative flex flex-col items-center justify-center text-center pt-28 pb-14 px-6 sm:px-10 md:px-20 lg:px-32 xl:px-48 max-w-6xl mx-auto overflow-hidden"

@@ -3,7 +3,7 @@
 ### 1\. Clone this Repository
 
 ```bash
-git clone https://github.com/ethercode-software/ethercode.git
+git clone https://github.com/ethercode/ethercode.git
 ```
 
 ### 2\. Navigate to the directory

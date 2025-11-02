@@ -19,7 +19,7 @@ export default function SectionCTAFinal() {
           viewport={{ once: true }}
           className="max-w-3xl mx-auto flex flex-col items-center"
         >
-          {/* Logo + ALTIORA */}
+          {/* Logo + ETHERCODE */}
           <div className="flex items-center gap-3 mb-6">
             <div className="relative w-30 h-30 flex items-center justify-center">
               <Image
@@ -33,7 +33,7 @@ export default function SectionCTAFinal() {
             </div>
             <Link href="/" className=" md:flex items-center gap-2">
               <span className="text-white text-1xl font-bold tracking-wide">
-                ALTIORA SOFTWARE
+                ETHERCODE
               </span>
             </Link>
           </div>
