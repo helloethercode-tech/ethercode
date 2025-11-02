@@ -12,7 +12,7 @@ const BASE_MESSAGE =
 
 function buildWaUrl(extra = "", origin = "") {
   const msg = extra ? `${BASE_MESSAGE}\n\nNecesito: ${extra}` : BASE_MESSAGE;
-  const q = encodeURIComponent(`${msg}\n\nOrigen: ${origin}`);
+  const q = encodeURIComponent(`${msg}`);
   return `https://api.whatsapp.com/send?phone=${encodeURIComponent(
     WAPP_NUMBER
   )}&text=${q}`;
