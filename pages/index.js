@@ -155,13 +155,6 @@ const Home = () => {
       {isLoading ? (
           <div
           className="relative min-h-screen flex flex-col justify-center items-center text-white overflow-hidden"
-          style={{
-            backgroundImage: "url('/img/ethercodeFondo2.png')",
-            backgroundAttachment: "fixed",
-            backgroundSize: "cover",
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center",
-          }}
         >
           {/* Capa de energía sutil */}
           <div
@@ -225,13 +218,6 @@ const Home = () => {
       ) : (
         <div
           className="min-h-screen text-primaryText flex flex-col justify-between"
-          style={{
-            backgroundImage: "url('img/ethercodeFondo2.png')",
-            backgroundAttachment: "fixed",
-            backgroundSize: "cover",
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center",
-          }}
         >
           <ChatWhatsapp />
           <ButtonTop />

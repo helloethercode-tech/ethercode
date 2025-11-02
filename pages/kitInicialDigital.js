@@ -74,13 +74,6 @@ const PageKitInicial = () => {
 
       <div  
         className="min-h-screen text-white flex flex-col justify-between"
-        style={{
-          backgroundImage: "url('/img/ethercodeFondo2.png')",
-          backgroundAttachment: 'fixed',
-          backgroundSize: 'cover',
-          backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'center',
-        }}
       >
         <HeroKitInicial />
         <BeneficiosKit />

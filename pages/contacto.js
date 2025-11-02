@@ -75,13 +75,6 @@ const Contact = () => {
     <>
       <div
         className="py-16 px-4 sm:px-6 lg:px-8"
-        style={{
-          backgroundImage: "url('/img/ethercodeFondo2.png')",
-          backgroundAttachment: "fixed",
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
-        }}
       >
         <div className="flex flex-col-reverse md:flex-row gap-8 px-4 md:px-10 max-w-7xl mx-auto items-start">
           {/* Contact Info */}

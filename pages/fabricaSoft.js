@@ -136,11 +136,6 @@ const FabricaSoft = () => {
         style={{
           ["--sec-mask-strength"]: 0.5,
           ["--sec-alpha"]: 0.06,
-          backgroundImage: "url('/img/ethercodeFondo2.png')",
-          backgroundAttachment: 'fixed',
-          backgroundSize: 'cover',
-          backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'center',
         }}
       >
         {/* FX de fondo (grilla + blobs cónicos) */}
