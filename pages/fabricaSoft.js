@@ -136,6 +136,11 @@ const FabricaSoft = () => {
         style={{
           ["--sec-mask-strength"]: 0.5,
           ["--sec-alpha"]: 0.06,
+          backgroundImage: "url('/img/ethercodeFondo2.png')",
+          backgroundAttachment: 'fixed',
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center',
         }}
       >
         {/* FX de fondo (grilla + blobs cónicos) */}
@@ -237,59 +242,6 @@ const FabricaSoft = () => {
             </div>
           </section>
 
-          {/* DESARROLLO WEB A MEDIDA (GALERÍA DE BENEFICIOS) */}
-          <motion.section
-            initial={{ opacity: 0, y: 40 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
-            viewport={{ once: true }}
-            className="mt-24"
-          >
-            <h2 className="text-3xl font-bold text-center text-cyan-300 mb-4">
-              Desarrollo Web a Medida
-            </h2>
-            <p className="text-lg text-center text-white/85 max-w-3xl mx-auto mb-14">
-              Sitios modernos, veloces y orientados a conversión. Integrados con{" "}
-              WhatsApp, formularios inteligentes y automatizaciones para
-              escalar sin fricción.
-            </p>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {[
-                {
-                  title: "Landing Pages que convierten",
-                  desc: "Hechas para campañas. Copy y UI pensados para captar leads y medir resultados.",
-                },
-                {
-                  title: "Formularios inteligentes",
-                  desc: "Conecta a WhatsApp, CRM o Sheets. Menos carga manual, más respuestas.",
-                },
-                {
-                  title: "Webs institucionales",
-                  desc: "Quién sos, qué hacés y por qué confiar: estructura clara + CTA efectiva.",
-                },
-                {
-                  title: "SEO y performance",
-                  desc: "Core Web Vitals, accesibilidad y buenas prácticas para subir en Google.",
-                },
-              ].map((item, i) => (
-                <motion.div
-                  key={i}
-                  whileHover={{ scale: 1.03 }}
-                  className="group relative overflow-hidden rounded-2xl p-6 backdrop-blur-md bg-white/5 border border-white/10 shadow transition"
-                >
-                  <div className="absolute inset-0 bg-gradient-to-br from-transparent to-cyan-400/10 opacity-0 group-hover:opacity-100 transition duration-500" />
-                  <div className="relative">
-                    <h3 className="text-xl font-semibold text-cyan-300 mb-2">
-                      {item.title}
-                    </h3>
-                    <p className="text-white/85">{item.desc}</p>
-                  </div>
-                </motion.div>
-              ))}
-            </div>
-          </motion.section>
-
           {/* ARSENAL TÉCNICO (HABILIDADES) */}
           <Element name="Servicios">
             <motion.section
@@ -367,6 +319,58 @@ const FabricaSoft = () => {
             </motion.section>
           </Element>
 
+          {/* DESARROLLO WEB A MEDIDA (GALERÍA DE BENEFICIOS) */}
+          <motion.section
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+            viewport={{ once: true }}
+            className="mt-24"
+          >
+            <h2 className="text-3xl font-bold text-center text-cyan-300 mb-4">
+              Desarrollo Web a Medida
+            </h2>
+            <p className="text-lg text-center text-white/85 max-w-3xl mx-auto mb-14">
+              Sitios modernos, veloces y orientados a conversión. Integrados con{" "}
+              WhatsApp, formularios inteligentes y automatizaciones para
+              escalar sin fricción.
+            </p>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {[
+                {
+                  title: "Landing Pages que convierten",
+                  desc: "Hechas para campañas. Copy y UI pensados para captar leads y medir resultados.",
+                },
+                {
+                  title: "Formularios inteligentes",
+                  desc: "Conecta a WhatsApp, CRM o Sheets. Menos carga manual, más respuestas.",
+                },
+                {
+                  title: "Webs institucionales",
+                  desc: "Quién sos, qué hacés y por qué confiar: estructura clara + CTA efectiva.",
+                },
+                {
+                  title: "SEO y performance",
+                  desc: "Core Web Vitals, accesibilidad y buenas prácticas para subir en Google.",
+                },
+              ].map((item, i) => (
+                <motion.div
+                  key={i}
+                  whileHover={{ scale: 1.03 }}
+                  className="group relative overflow-hidden rounded-2xl p-6 backdrop-blur-md bg-white/5 border border-white/10 shadow transition"
+                >
+                  <div className="absolute inset-0 bg-gradient-to-br from-transparent to-cyan-400/10 opacity-0 group-hover:opacity-100 transition duration-500" />
+                  <div className="relative">
+                    <h3 className="text-xl font-semibold text-cyan-300 mb-2">
+                      {item.title}
+                    </h3>
+                    <p className="text-white/85">{item.desc}</p>
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+          </motion.section>
           {/* CTA BREVE ANTES DE CONTACTO */}
           <motion.div
             initial={{ opacity: 0, y: 10 }}
@@ -376,12 +380,12 @@ const FabricaSoft = () => {
             className="mt-8 text-center"
           >
             <a
-              href="https://cal.com/ethercode/contanos-tu-idea"
+              href="https://cal.com/ether-code/contanos-tu-idea"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center rounded-full px-7 py-3
                          bg-gradient-to-r from-[#00F5D4] via-[#00B4E7] to-[#C77DFF]
-                         text-black font-bold shadow-2xl hover:opacity-95 active:scale-[0.99] transition"
+                         text-black font-bold shadow-2xl hover:opacity-95 no-underline hover:no-underline active:scale-[0.99] transition"
             >
               🚀 Agendar diagnóstico gratuito
             </a>

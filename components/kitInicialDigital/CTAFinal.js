@@ -85,7 +85,7 @@ export default function CTAFinal() {
           className="inline-block bg-gradient-to-r from-[#00F5D4] via-[#00B4E7] to-[#C77DFF] 
                      hover:from-[#72D7FF] hover:to-[#C77DFF] 
                      text-black font-extrabold text-lg sm:text-xl py-4 px-10 
-                     rounded-full shadow-2xl tracking-wide transition-all duration-300"
+                     rounded-full shadow-2xl tracking-wide transition-all duration-300 hover:no-underline no-underline"
         >
           💬 Reservá tu llamada gratuita
         </motion.a>

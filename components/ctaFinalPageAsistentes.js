@@ -102,7 +102,7 @@ export default function CTAFinal() {
               rel="noopener noreferrer"
               className="relative inline-flex items-center justify-center rounded-2xl px-7 py-3.5 min-h-[48px]
                          text-black font-bold bg-gradient-to-r from-cyan-300 to-indigo-300
-                         shadow-xl transition will-change-transform
+                         shadow-xl transition will-change-transform no-underline hover:no-underline
                          hover:from-cyan-200 hover:to-indigo-200 active:scale-[0.99]"
               aria-label="Agendar reunión"
             >

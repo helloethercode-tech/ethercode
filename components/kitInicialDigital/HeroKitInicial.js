@@ -150,7 +150,7 @@ export default function HeroKitInicial() {
             className="relative inline-flex items-center justify-center rounded-2xl px-7 py-3.5 min-h-[48px]
                        text-white bg-white/10 backdrop-blur-md border border-white/20 ring-1 ring-white/10
                        shadow-lg shadow-black/10 transition will-change-transform
-                       hover:bg-white/20 hover:shadow-xl hover:ring-white/30 active:scale-[0.99]"
+                       hover:bg-white/20 hover:shadow-xl no-underline hover:ring-white/30 active:scale-[0.99]"
             aria-label="Agendar reunión"
           >
             📅 Agendar una reunión
