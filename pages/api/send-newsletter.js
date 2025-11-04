@@ -36,9 +36,9 @@ export default async function handler(req, res) {
       const email = subscriber.email;
 
       await transporter.sendMail({
-        from: `"EtherCode" <${process.env.EMAIL}>`,
+        from: `"ÉtherCode" <${process.env.EMAIL}>`,
         to: email,
-        subject: 'Tu Newsletter Semanal de EtherCode 🚀',
+        subject: 'Tu Newsletter Semanal de ÉtherCode 🚀',
         html: newsletterEmailTemplate(), // Generar el contenido dinámico del newsletter
       });
     }

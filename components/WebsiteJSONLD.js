@@ -9,12 +9,12 @@ const WebsiteJSONLD = () => (
         "@context": "https://schema.org",
         "@type": "WebSite",
         url: "https://www.ethercode.com.ar",
-        name: "EtherCode",
+        name: "ÉtherCode",
         description:
           "Desarrollamos software a medida, aplicaciones móviles y soluciones tecnológicas innovadoras para tu negocio.",
         publisher: {
           "@type": "Organization",
-          name: "EtherCode",
+          name: "ÉtherCode",
         },
         potentialAction: {
           "@type": "SearchAction",

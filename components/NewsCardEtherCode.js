@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from "next/image";
 
-const NewsCardEtherCode = ({ news }) => {
+const NewsCardÉtherCode = ({ news }) => {
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white dark:bg-gray-900 m-4">
 
@@ -19,4 +19,4 @@ const NewsCardEtherCode = ({ news }) => {
   );
 };
 
-export default NewsCardEtherCode;
+export default NewsCardÉtherCode;

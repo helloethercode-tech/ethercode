@@ -5,7 +5,7 @@ export function newsletterEmailTemplate() {
       <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Newsletter Semanal de EtherCode</title>
+        <title>Newsletter Semanal de ÉtherCode</title>
         <style>
           body {
             font-family: Arial, sans-serif;
@@ -81,7 +81,7 @@ export function newsletterEmailTemplate() {
         <div class="container">
           <!-- Header -->
           <div class="header">
-            <h1>🚀 EtherCode</h1>
+            <h1>🚀 ÉtherCode</h1>
             <p>Innovación en tus manos</p>
           </div>
   
@@ -95,13 +95,13 @@ export function newsletterEmailTemplate() {
               <li>📖 <strong>Blog destacado:</strong> <a href="https://ethercode.com/blog">"5 formas de mejorar tu presencia digital"</a></li>
             </ul>
             <div class="cta">
-              <a href="https://ethercode.com">Conocé más sobre EtherCode</a>
+              <a href="https://ethercode.com">Conocé más sobre ÉtherCode</a>
             </div>
           </div>
   
           <!-- Footer -->
           <div class="footer">
-            <p>© 2025 EtherCode. Todos los derechos reservados.</p>
+            <p>© 2025 ÉtherCode. Todos los derechos reservados.</p>
             <p><a href="https://ethercode.com">Visitanos</a> | <a href="mailto:contacto@ethercode.com">Contacto</a></p>
             <p>Si no querés recibir más correos, <a href="https://ethercode.com/unsubscribe">darte de baja</a>.</p>
           </div>

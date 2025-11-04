@@ -11,7 +11,7 @@ import ButtonTop from "../components/buttonTop";
 import UseCases from "../components/useCases";
 import ChatBot from "../components/chatBotButton";
 import LogoSlider from "../components/clientes/LogoSlider";
-import EtherCodeChat from "../components/EtherCodeChat";
+import ÉtherCodeChat from "../components/ÉtherCodeChat";
 
 
 const Home = () => {
@@ -81,74 +81,163 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>
-          Empleados Digitales con IA para Empresas | EtherCode
-        </title>
-
+        {/* 🧠 TÍTULOS Y DESCRIPCIONES */}
+        <title>Empleados Digitales IA, Automatización y Asistentes Virtuales | ÉtherCode</title>
         <meta
           name="description"
-          content="EtherCode crea empleados digitales con inteligencia artificial para que tu negocio nunca se detenga. Atención al cliente, automatización y eficiencia 24/7."
+          content="ÉtherCode desarrolla empleados digitales con inteligencia artificial para empresas y emprendedores. Automatizá atención al cliente, ventas y operaciones con IA 24/7. Expertos en bots, software inteligente y soluciones tecnológicas en Argentina y Latinoamérica."
         />
+
+        {/* 🗝️ PALABRAS CLAVE AMPLIADAS */}
         <meta
           name="keywords"
-          content="empleado digital, asistentes IA, agentes inteligentes, inteligencia artificial para empresas, automatización empresarial, chatbot whatsapp, empleados virtuales, IA para negocios, automatizar procesos, empleados IA Argentina"
+          content="empleado digital, inteligencia artificial, automatización de empresas, chatbot WhatsApp, asistentes virtuales, IA para negocios, bots conversacionales, software personalizado, automatización de procesos, agente inteligente, transformación digital, IA Argentina, automatizar ventas, IA marketing, atención al cliente 24/7, ÉtherCode, programadores IA, agentes GPT, integración OpenAI, web apps, diseño web inteligente, desarrollo web Argentina, soluciones IA para empresas, automatización para pymes, innovación tecnológica, agentes digitales, IA empresarial, asistentes GPT, empresas de software, desarrollo inteligente, IA en Jujuy, IA Norte Argentino, automatización en Latinoamérica, tecnología futurista"
         />
 
-        <meta
-          property="og:title"
-          content="Empleados Digitales con IA para Empresas | EtherCode"
-        />
+        {/* 🌍 CANONICAL Y LOCALIZACIÓN */}
+        <link rel="canonical" href="https://www.ethercode.com.ar" />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="ÉtherCode" />
+        <meta name="language" content="es" />
+        <meta name="geo.region" content="AR-J" />
+        <meta name="geo.placename" content="San Salvador de Jujuy" />
+        <meta name="geo.position" content="-24.185786;-65.299476" />
+        <meta name="ICBM" content="-24.185786, -65.299476" />
+
+        {/* 📱 OPEN GRAPH Y REDES */}
+        <meta property="og:title" content="ÉtherCode | Empleados Digitales con IA para Empresas" />
         <meta
           property="og:description"
-          content="Automatizá tu atención al cliente, ventas y operaciones con asistentes inteligentes. Tu nuevo empleado digital trabaja 24/7, sin excusas."
+          content="Tu negocio nunca se detiene. ÉtherCode crea empleados digitales impulsados por IA que automatizan tareas, ventas y atención al cliente 24/7."
         />
-        <meta property="og:image" content="/img-logo/EtherCodeSlogan.png" />
+        <meta property="og:image" content="https://ethercode.com.ar/img-logo/ÉtherCodeSlogan.png" />
         <meta property="og:url" content="https://www.ethercode.com.ar" />
+        <meta property="og:site_name" content="ÉtherCode" />
+        <meta property="og:type" content="website" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Empleados Digitales con IA para Empresas"
-        />
+        <meta name="twitter:site" content="@ethercode" />
+        <meta name="twitter:title" content="ÉtherCode | Empleados Digitales con IA" />
         <meta
           name="twitter:description"
-          content="Automatizá tu negocio con asistentes IA que trabajan como empleados virtuales. Siempre disponibles, siempre eficientes."
+          content="Automatizá tu negocio con asistentes inteligentes y empleados virtuales IA. Tecnología, innovación y eficiencia 24/7."
         />
-        <meta name="twitter:image" content="/img-logo/EtherCodeSlogan.png" />
+        <meta name="twitter:image" content="https://ethercode.com.ar/img-logo/ÉtherCodeSlogan.png" />
 
-        <meta name="robots" content="index, follow" />
-        <meta name="author" content="EtherCode" />
-        <link rel="icon" href="/img-logo/ethercode-isotipo-turquoise-hd.ico" />
-        <link rel="canonical" href="https://www.ethercode.com.ar" />
-
-        {/* Preguntas SEO estilo LLM */}
+        {/* 🔍 PREGUNTAS SEMÁNTICAS (BERT / LLM SEO) */}
         <meta
           name="search-questions"
-          content="¿Qué es un empleado digital con IA? ¿Cómo automatizar tareas con inteligencia artificial? ¿Un bot puede atender mi negocio en WhatsApp? ¿Qué hace un asistente inteligente? ¿Cómo usar IA para atención al cliente? ¿Cómo vender más con inteligencia artificial?"
+          content="¿Qué es un empleado digital con IA?, ¿Cómo usar inteligencia artificial para automatizar un negocio?, ¿Un bot puede atender clientes por WhatsApp?, ¿Cómo crear un asistente virtual?, ¿Cuánto cuesta desarrollar un empleado digital?, ¿Cómo usar IA en una pyme?, ¿Qué hace ÉtherCode?, ¿Cómo optimizar ventas con inteligencia artificial?, ¿Cómo automatizar atención al cliente 24/7?"
         />
 
-        {/* Structured Data para motores de búsqueda y LLMs */}
-        <script type="application/ld+json">
-          {`
-          {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "name": "EtherCode",
-            "url": "https://www.ethercode.com.ar",
-            "description": "EtherCode desarrolla empleados digitales con inteligencia artificial para automatizar ventas, atención al cliente y operaciones empresariales.",
-            "publisher": {
+        {/* 🧩 DATOS ESTRUCTURADOS EXTENDIDOS */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
               "@type": "Organization",
-              "name": "EtherCode",
+              "name": "ÉtherCode",
               "url": "https://www.ethercode.com.ar",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://www.ethercode.com.ar/img-logo/EtherCodeSlogan.png"
+              "logo": "https://ethercode.com.ar/img-logo/ÉtherCodeSlogan.png",
+              "sameAs": [
+                "https://www.instagram.com/ethercode",
+                "https://www.linkedin.com/company/ethercode",
+                "https://github.com/ethercode",
+                "https://www.facebook.com/ethercode.ar"
+              ],
+              "contactPoint": [
+                {
+                  "@type": "ContactPoint",
+                  "telephone": "+54 388 123 4567",
+                  "contactType": "Atención al cliente",
+                  "areaServed": "AR, LATAM",
+                  "availableLanguage": ["Spanish", "English"]
+                }
+              ],
+              "founder": {
+                "@type": "Person",
+                "name": "Alejandro Mendoza",
+                "jobTitle": "CEO & Software Engineer",
+                "sameAs": ["https://www.linkedin.com/in/alejandromendozadev"]
+              },
+              "co-founder": {
+                "@type": "Person",
+                "name": "Pablo Martinez",
+                "jobTitle": "CTO & Software Engineer",
+                "sameAs": ["https://www.linkedin.com/in/pablo-martinez-9b2991233"]
+              },
+              "description":
+                "ÉtherCode desarrolla empleados digitales con inteligencia artificial, automatización de procesos, bots conversacionales y soluciones web inteligentes.",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "San Salvador de Jujuy",
+                "addressRegion": "Jujuy",
+                "addressCountry": "AR"
               }
-            }
-          }
-          `}
-        </script>
+            }),
+          }}
+        />
+
+        {/* 🌐 SCHEMA DE SERVICIOS */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "serviceType": "Automatización con IA y Asistentes Digitales",
+              "provider": {
+                "@type": "Organization",
+                "name": "ÉtherCode",
+                "url": "https://www.ethercode.com.ar"
+              },
+              "areaServed": "Argentina y Latinoamérica",
+              "description":
+                "Diseño y desarrollo de empleados digitales con IA, bots de atención, sistemas web, automatización de tareas y soluciones inteligentes para empresas.",
+              "offers": {
+                "@type": "Offer",
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock",
+                "url": "https://www.ethercode.com.ar/servicios"
+              }
+            }),
+          }}
+        />
+
+        {/* 🗺️ BREADCRUMB PARA GOOGLE */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                { "@type": "ListItem", position: 1, name: "Inicio", item: "https://www.ethercode.com.ar" },
+                { "@type": "ListItem", position: 2, name: "Asistentes Digitales", item: "https://ethercode.com.ar/asistentes" },
+                { "@type": "ListItem", position: 2, name: "Kit digital Inicial", item: "https://ethercode.com.ar/kitInicialDigital" },
+                { "@type": "ListItem", position: 3, name: "Software Factory", item: "https://www.ethercode.com.ar/fabricaSoft" }
+              ]
+            }),
+          }}
+        />
+
+        {/* 🔥 EXTRA SEO */}
+        <meta name="theme-color" content="#0A1128" />
+        <meta name="application-name" content="ÉtherCode" />
+        <meta name="apple-mobile-web-app-title" content="ÉtherCode" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        {/* 📢 ALTERNATES PARA MULTIPAÍS */}
+        <link rel="alternate" href="https://www.ethercode.com.ar" hrefLang="es-ar" />
+        <link rel="alternate" href="https://www.ethercode.com" hrefLang="es" />
+        <link rel="alternate" href="https://www.ethercode.lat" hrefLang="es-419" />
+        <link rel="alternate" href="https://www.ethercode.com/en" hrefLang="en" />
+
+        {/* 📊 GOOGLE ANALYTICS Y ADSENSE YA CONFIGURADOS ARRIBA */}
       </Head>
+
 
       {/* Botones de idioma */}
 

@@ -10,7 +10,7 @@ const testimonios = [
     nombre: "Micaela",
     empresa: "Tienda de Cosmética Natural",
     mensaje:
-      "Con el asistente de EtherCode aumentamos la cantidad de consultas sin agregar personal. ¡Responde incluso los domingos!",
+      "Con el asistente de ÉtherCode aumentamos la cantidad de consultas sin agregar personal. ¡Responde incluso los domingos!",
   },
   {
     nombre: "Javier",

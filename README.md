@@ -1,4 +1,4 @@
-# EtherCode
+# ÉtherCode
 
 ### 1\. Clone this Repository
 

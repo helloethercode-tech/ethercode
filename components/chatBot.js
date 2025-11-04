@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { motion, useReducedMotion } from "framer-motion";
 
-// Chat EtherCode — glass + aura, tip de contacto, consistente con el estilo del sitio
+// Chat ÉtherCode — glass + aura, tip de contacto, consistente con el estilo del sitio
 const ChatBot = ({
   closeChat,
   showWelcomeMessage,
@@ -43,7 +43,7 @@ const ChatBot = ({
           {
             sender: "bot",
             text:
-              "¡Hola! Soy Ali, tu asistente de EtherCode. Contame en qué te ayudo y te respondo al toque ⚡",
+              "¡Hola! Soy Ali, tu asistente de ÉtherCode. Contame en qué te ayudo y te respondo al toque ⚡",
           },
         ]);
         setIsTyping(false);
@@ -179,7 +179,7 @@ const ChatBot = ({
           <div className="flex items-center justify-between">
             <div className="font-semibold tracking-wide flex items-center gap-2">
               <span className="inline-block w-2 h-2 rounded-full bg-emerald-300 animate-pulse" />
-              Ali • Asistente EtherCode
+              Ali • Asistente ÉtherCode
             </div>
             <button
               onClick={closeChat}

@@ -4,7 +4,7 @@ export default function Seguridad() {
   return (
     <div className="py-20 text-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 className="text-3xl font-bold text-accent mb-4 text-white">🔒 Seguridad en EtherCode</h2>
+        <h2 className="text-3xl font-bold text-accent mb-4 text-white">🔒 Seguridad en ÉtherCode</h2>
         <p className="text-gray-300 mb-12 text-lg">
           Implementamos las medidas más estrictas de protección para garantizar la integridad, confidencialidad y disponibilidad de tus datos.
         </p>

@@ -5,7 +5,7 @@ export const contactEmailTemplate = (data) => {
       <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Nuevo Contacto - EtherCode</title>
+        <title>Nuevo Contacto - ÉtherCode</title>
         <style>
           body {
             font-family: Arial, sans-serif;
@@ -56,7 +56,7 @@ export const contactEmailTemplate = (data) => {
       <body>
         <div class="container">
           <div class="header">
-            Nuevo Contacto de EtherCode
+            Nuevo Contacto de ÉtherCode
           </div>
           <div class="content">
             <h2>Información del Contacto</h2>
@@ -68,7 +68,7 @@ export const contactEmailTemplate = (data) => {
             </div>
           </div>
           <div class="footer">
-            © 2024 EtherCode | Todos los derechos reservados.
+            © 2024 ÉtherCode | Todos los derechos reservados.
           </div>
         </div>
       </body>

@@ -24,7 +24,7 @@ export default function SectionCTAFinal() {
             <div className="relative w-30 h-30 flex items-center justify-center">
               <Image
                 src="/img-logo/logo-ethercode--sinfondo-blanco.png"
-                alt="Logo EtherCode"
+                alt="Logo ÉtherCode"
                 width={60}
                 height={60}
                 className="object-contain"

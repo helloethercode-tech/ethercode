@@ -1,4 +1,4 @@
-// Footer.js — EtherCode
+// Footer.js — ÉtherCode
 // - Fondo continuo equilibrado (overlay por sección)
 // - Gradientes vivos, micro-animaciones y hover glow
 // - Accesibilidad mejorada + fixes (GitHub icon correcto)
@@ -97,7 +97,7 @@ export default function Footer() {
               <span className="relative inline-flex">
                 <Image
                   src="/img-logo/ethercode-isotipo-white-1024.png"
-                  alt="EtherCode Logo"
+                  alt="ÉtherCode Logo"
                   width={40}
                   height={40}
                   className="w-12 hidden dark:block"
@@ -105,7 +105,7 @@ export default function Footer() {
                 />
                 <Image
                   src="/img-logo/ethercode-isotipo-black-1024.png"
-                  alt="EtherCode Logo"
+                  alt="ÉtherCode Logo"
                   width={40}
                   height={40}
                   className="w-12 block dark:hidden"
@@ -115,7 +115,7 @@ export default function Footer() {
                 <span className="absolute -inset-2 rounded-full blur-md opacity-30 -z-10 bg-[conic-gradient(from_0deg_at_50%_50%,_#22d3ee44,_#e879f944,_#6366f144,_#22d3ee44)]" />
               </span>
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-300 via-fuchsia-300 to-indigo-300">
-                EtherCode
+                ÉtherCode
               </span>
             </Link>
 
@@ -260,7 +260,7 @@ export default function Footer() {
         {/* Bottom row */}
         <div className="mt-6 mb-8 flex flex-col items-center justify-between gap-3 sm:flex-row">
           <p className="text-xs text-white/60">
-            © {new Date().getFullYear()} • Hecho con <span className="text-red-400">♥</span> por EtherCode
+            © {new Date().getFullYear()} • Hecho con <span className="text-red-400">♥</span> por ÉtherCode
           </p>
 
           {/* Mini links secundarios */}

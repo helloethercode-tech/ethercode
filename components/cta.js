@@ -74,7 +74,7 @@ const Cta = () => {
       <div className="flex flex-wrap items-center justify-between w-full max-w-4xl gap-5 mx-auto text-white bg-[#4888CD] px-7 py-7 lg:px-12 lg:py-12 lg:flex-nowrap rounded-xl">
         <div className="flex-grow text-center lg:text-left">
           <h2 className="text-2xl font-medium lg:text-3xl">
-            Descubre las soluciones de <br /> EtherCode.
+            Descubre las soluciones de <br /> ÉtherCode.
           </h2>
           <br />
           <p className="mt-2 font-medium text-white text-opacity-90 lg:text-xl">

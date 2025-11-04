@@ -86,9 +86,9 @@ const Contact = () => {
             variants={staggerContainer}
           >
             <motion.div className="mb-8" variants={fadeInUp}>
-              <h3 className="text-white text-2xl font-bold mb-2">EtherCode</h3>
+              <h3 className="text-white text-2xl font-bold mb-2">ÉtherCode</h3>
               <p className="text-gray-300 text-sm leading-relaxed">
-                En EtherCode creamos sitios web y aplicaciones modernas con tecnologías de vanguardia.<br />
+                En ÉtherCode creamos sitios web y aplicaciones modernas con tecnologías de vanguardia.<br />
                 <span className="text-[#6a5af9] cursor-pointer">Contactanos</span> para tu próximo proyecto digital.
               </p>
             </motion.div>

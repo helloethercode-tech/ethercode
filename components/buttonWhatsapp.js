@@ -8,7 +8,7 @@ import { motion, useReducedMotion } from "framer-motion";
 
 const WAPP_NUMBER = "+5493884486112";
 const BASE_MESSAGE =
-  "Hola EtherCode! Quiero mi Empleado Digital y me gustaría una propuesta rápida 🚀";
+  "Hola ÉtherCode! Quiero mi Empleado Digital y me gustaría una propuesta rápida 🚀";
 
 function buildWaUrl(extra = "", origin = "") {
   const msg = extra ? `${BASE_MESSAGE}\n\nNecesito: ${extra}` : BASE_MESSAGE;

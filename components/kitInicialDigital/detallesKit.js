@@ -139,7 +139,7 @@ export default function DetallesKit() {
       {/* Mini-CTA para upgrades */}
       <div className="mt-8 text-center">
         <a
-          href="https://wa.me/5493884136752?text=Hola%20EtherCode!%20Quiero%20agregar%20m%C3%B3dulos%20al%20Kit%20Digital%20(%20blog%2Fcarrito%2Fturnos%20)%20🚀"
+          href="https://wa.me/5493884136752?text=Hola%20ÉtherCode!%20Quiero%20agregar%20m%C3%B3dulos%20al%20Kit%20Digital%20(%20blog%2Fcarrito%2Fturnos%20)%20🚀"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center justify-center rounded-2xl px-6 py-3.5 min-h-[48px]

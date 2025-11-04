@@ -165,7 +165,7 @@ export default function IntegracionesIA() {
           viewport={{ once: true, amount: 0.3 }}
           className="mt-16 text-lg text-center text-white/75 max-w-3xl mx-auto"
         >
-          Con EtherCode, vos definís el objetivo y nosotros diseñamos el flujo. Sin aprender nuevas herramientas:{" "}
+          Con ÉtherCode, vos definís el objetivo y nosotros diseñamos el flujo. Sin aprender nuevas herramientas:{" "}
           <span className="text-white">el equipo digital trabaja por vos</span>.
         </motion.p>
 

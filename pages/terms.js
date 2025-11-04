@@ -7,10 +7,10 @@ const Terms = () => {
   return (
     <>
       <Head>
-        <title>Terms and Conditions - EtherCode</title>
+        <title>Terms and Conditions - ÉtherCode</title>
         <meta
           name="description"
-          content="Review the terms and conditions of use for the services and website of EtherCode."
+          content="Review the terms and conditions of use for the services and website of ÉtherCode."
         />
         <meta name="robots" content="noindex, nofollow" />
         <link rel="icon" href="/img-logo/ethercode-isotipo-turquoise-hd.ico" />
@@ -26,7 +26,7 @@ const Terms = () => {
 
             <p className="text-lg text-gray-300 mb-8">
               These Terms and Conditions govern your use of the website{" "}
-              <a href="https://ethercode.com.ar" className="text-blue-500 underline hover:text-blue-700">ethercode.com.ar</a> and any products or services offered by EtherCode™. By accessing or using our platform, you agree to be bound by these terms.
+              <a href="https://ethercode.com.ar" className="text-blue-500 underline hover:text-blue-700">ethercode.com.ar</a> and any products or services offered by ÉtherCode™. By accessing or using our platform, you agree to be bound by these terms.
             </p>
 
             <h3 className="text-2xl font-semibold text-blue-600 dark:text-blue-400 mb-4">
@@ -40,7 +40,7 @@ const Terms = () => {
               2. Modifications to the Terms
             </h3>
             <p className="text-lg text-gray-300 mb-8">
-              EtherCode™ reserves the right to update or modify these Terms at any time without prior notice. Your continued use of the website after any changes implies your acceptance of the revised Terms.
+              ÉtherCode™ reserves the right to update or modify these Terms at any time without prior notice. Your continued use of the website after any changes implies your acceptance of the revised Terms.
             </p>
 
             <h3 className="text-2xl font-semibold text-blue-600 dark:text-blue-400 mb-4">
@@ -54,14 +54,14 @@ const Terms = () => {
               4. Intellectual Property
             </h3>
             <p className="text-lg text-gray-300 mb-8">
-              All content on this site, including code, images, text, graphics, trademarks, and software, is the property of EtherCode™ or its licensors and is protected by applicable intellectual property laws. Unauthorized reproduction, modification, or distribution is strictly prohibited.
+              All content on this site, including code, images, text, graphics, trademarks, and software, is the property of ÉtherCode™ or its licensors and is protected by applicable intellectual property laws. Unauthorized reproduction, modification, or distribution is strictly prohibited.
             </p>
 
             <h3 className="text-2xl font-semibold text-blue-600 dark:text-blue-400 mb-4">
               5. User Responsibilities
             </h3>
             <ul className="list-disc ml-8 mb-8 text-lg text-gray-300">
-              <li>Provide accurate and truthful information in all interactions with EtherCode™.</li>
+              <li>Provide accurate and truthful information in all interactions with ÉtherCode™.</li>
               <li>Respect other users and not engage in harmful or illegal behavior.</li>
               <li>Use the platform in accordance with technical and ethical standards.</li>
             </ul>
@@ -70,7 +70,7 @@ const Terms = () => {
               6. Limitation of Liability
             </h3>
             <p className="text-lg text-gray-300 mb-8">
-              EtherCode™ shall not be held liable for any indirect, incidental, or consequential damages resulting from the use or inability to use our services, including but not limited to data loss, service interruptions, or third-party breaches.
+              ÉtherCode™ shall not be held liable for any indirect, incidental, or consequential damages resulting from the use or inability to use our services, including but not limited to data loss, service interruptions, or third-party breaches.
             </p>
 
             <h3 className="text-2xl font-semibold text-blue-600 dark:text-blue-400 mb-4">

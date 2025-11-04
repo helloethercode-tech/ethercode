@@ -17,7 +17,7 @@ export default async function handler(req, res) {
 
       await pool.sql`INSERT INTO client_contacts (name, contact_info) VALUES (${name}, ${contact})`;
 
-      return res.status(200).json({ message: 'Información registrada exitosamente. ¡Gracias por tu interés en EtherCode!' });
+      return res.status(200).json({ message: 'Información registrada exitosamente. ¡Gracias por tu interés en ÉtherCode!' });
     } catch (error) {
       console.error('Error al procesar la solicitud:', error);
 

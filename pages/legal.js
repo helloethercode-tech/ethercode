@@ -7,10 +7,10 @@ const Legal = () => {
   return (
     <>
       <Head>
-        <title>Legal Information - EtherCode</title>
+        <title>Legal Information - ÉtherCode</title>
         <meta
           name="description"
-          content="Legal information about EtherCode, including rights, responsibilities, and regulations regarding the use of our services in Jujuy and Argentina."
+          content="Legal information about ÉtherCode, including rights, responsibilities, and regulations regarding the use of our services in Jujuy and Argentina."
         />
         {/* ROBOTS NOFOLLOW */}
         <meta name="robots" content="noindex, nofollow" />
@@ -29,7 +29,7 @@ const Legal = () => {
               {/* 1 */}
               <h2 className="text-3xl font-bold mb-6">1. Legal Entity</h2>
               <p className="text-lg text-gray-300 mb-10">
-                EtherCode™ is a registered trademark in process before the Argentine National Institute of Industrial Property (INPI), operating under the official domain{" "}
+                ÉtherCode™ is a registered trademark in process before the Argentine National Institute of Industrial Property (INPI), operating under the official domain{" "}
                 <a href="https://ethercode.com.ar" className="text-blue-500 hover:underline">
                   ethercode.com.ar
                 </a>
@@ -39,7 +39,7 @@ const Legal = () => {
               {/* 2 */}
               <h2 className="text-3xl font-bold mb-6">2. Legal Compliance</h2>
               <p className="text-lg text-gray-300 mb-10">
-                All services provided by EtherCode™ comply with applicable national and local regulations, including consumer protection, personal data security, and compliance with tax and labor obligations.
+                All services provided by ÉtherCode™ comply with applicable national and local regulations, including consumer protection, personal data security, and compliance with tax and labor obligations.
               </p>
 
               {/* 3 */}
@@ -59,7 +59,7 @@ const Legal = () => {
               {/* 5 */}
               <h2 className="text-3xl font-bold mb-6">5. Data Handling in Forms</h2>
               <p className="text-lg text-gray-300 mb-10">
-                By using our contact forms or any form on our website, you consent to EtherCode™ collecting and storing the information you provide. This data will be used solely for the stated purposes, such as responding to your inquiries or providing requested services.
+                By using our contact forms or any form on our website, you consent to ÉtherCode™ collecting and storing the information you provide. This data will be used solely for the stated purposes, such as responding to your inquiries or providing requested services.
               </p>
               <p className="text-lg text-gray-300 mb-10">
                 All data is handled in accordance with our{" "}
@@ -73,7 +73,7 @@ const Legal = () => {
               {/* 6 */}
               <h2 className="text-3xl font-bold mb-6">6. Intellectual Property Rights</h2>
               <p className="text-lg text-gray-300 mb-10">
-                All content on our website, including text, graphics, logos, and software, is the property of EtherCode™ or its licensors and is protected under applicable intellectual property laws. Reproduction, distribution, or modification of this content is strictly prohibited without prior written consent from EtherCode™.
+                All content on our website, including text, graphics, logos, and software, is the property of ÉtherCode™ or its licensors and is protected under applicable intellectual property laws. Reproduction, distribution, or modification of this content is strictly prohibited without prior written consent from ÉtherCode™.
               </p>
 
               {/* 7 */}

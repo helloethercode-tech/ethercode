@@ -20,7 +20,7 @@ export default async function handler(req, res) {
       await transporter.sendMail({
         from: process.env.EMAIL,
         to: email,
-        subject: 'Confirma tu suscripción al newsletter de EtherCode!',
+        subject: 'Confirma tu suscripción al newsletter de ÉtherCode!',
         html: confirmationEmailTemplate(email),
       });
 

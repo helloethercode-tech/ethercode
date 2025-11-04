@@ -5,7 +5,7 @@ const contactEmailTemplate = ({ nombre, phone, detalles }) => {
     <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Nuevo mensaje de contacto - EtherCode</title>
+      <title>Nuevo mensaje de contacto - ÉtherCode</title>
       <style>
         body {
           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -81,7 +81,7 @@ const contactEmailTemplate = ({ nombre, phone, detalles }) => {
           <div class="message-box">${detalles}</div>
         </div>
         <div class="footer">
-          © 2025 <strong>EtherCode</strong> · Automatización & IA para empresas visionarias
+          © 2025 <strong>ÉtherCode</strong> · Automatización & IA para empresas visionarias
         </div>
       </div>
     </body>
@@ -97,7 +97,7 @@ Nuevo mensaje desde el formulario web
 - Mensaje:
 ${detalles}
 
-© 2025 EtherCode · Automatización & IA para empresas visionarias
+© 2025 ÉtherCode · Automatización & IA para empresas visionarias
   `;
 
   return { html, text };

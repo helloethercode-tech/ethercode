@@ -7,10 +7,10 @@ const Legal = () => {
   return (
     <>
       <Head>
-        <title>Legal Information - EtherCode</title>
+        <title>Legal Information - ÉtherCode</title>
         <meta
           name="description"
-          content="Legal information from EtherCode, including rights, responsibilities, and regulations for using our services in Jujuy and Argentina."
+          content="Legal information from ÉtherCode, including rights, responsibilities, and regulations for using our services in Jujuy and Argentina."
         />
         <meta name="robots" content="noindex, nofollow" />
         <link rel="icon" href="/img-logo/ethercode-isotipo-turquoise-hd.ico" />
@@ -27,17 +27,17 @@ const Legal = () => {
 
             <h2 className="text-3xl font-bold mb-6">1. Legal Entity</h2>
             <p className="text-lg text-gray-300 mb-10">
-              EtherCode is a registered corporation in the Argentine Republic under the legal name <strong>EtherCode S.R.L.</strong> As such, it is subject to national laws and regulations, including but not limited to the Argentine Penal Code and the Personal Data Protection Law (Law No. 25.326).
+              ÉtherCode is a registered corporation in the Argentine Republic under the legal name <strong>ÉtherCode S.R.L.</strong> As such, it is subject to national laws and regulations, including but not limited to the Argentine Penal Code and the Personal Data Protection Law (Law No. 25.326).
             </p>
 
             <h2 className="text-3xl font-bold mb-6">2. Legal Compliance</h2>
             <p className="text-lg text-gray-300 mb-10">
-              All services offered by EtherCode S.R.L. comply with local and national regulations. This includes consumer rights protection, data security, and compliance with tax and labor obligations.
+              All services offered by ÉtherCode S.R.L. comply with local and national regulations. This includes consumer rights protection, data security, and compliance with tax and labor obligations.
             </p>
 
             <h2 className="text-3xl font-bold mb-6">3. Terms and Conditions</h2>
             <p className="text-lg text-gray-300 mb-10">
-              By using EtherCode services, you agree to our Terms and Conditions, which govern the use of our products and services. These terms can be reviewed in detail on our{" "}
+              By using ÉtherCode services, you agree to our Terms and Conditions, which govern the use of our products and services. These terms can be reviewed in detail on our{" "}
               <a href="/terms" className="text-blue-500 hover:underline">
                 Terms and Conditions
               </a>{" "}
@@ -55,7 +55,7 @@ const Legal = () => {
 
             <h2 className="text-3xl font-bold mb-6">5. Data Handling in Forms</h2>
             <p className="text-lg text-gray-300 mb-10">
-              By using our contact forms or any other form on our website, you agree that the information you provide will be collected and stored by EtherCode S.R.L. This information will be used exclusively for the purposes stated in the form, such as responding to your inquiries or providing the requested services.
+              By using our contact forms or any other form on our website, you agree that the information you provide will be collected and stored by ÉtherCode S.R.L. This information will be used exclusively for the purposes stated in the form, such as responding to your inquiries or providing the requested services.
             </p>
             <p className="text-lg text-gray-300 mb-10">
               All submitted data will be treated in accordance with our{" "}
@@ -77,7 +77,7 @@ const Legal = () => {
 
             <h2 className="text-3xl font-bold mb-6">6. Intellectual Property Rights</h2>
             <p className="text-lg text-gray-300 mb-10">
-              All content on our website, including text, graphics, logos, and software, is the property of EtherCode S.R.L. or its licensors and is protected by applicable intellectual property laws. Reproduction, distribution, or modification of this content without prior written authorization from EtherCode S.R.L. is strictly prohibited.
+              All content on our website, including text, graphics, logos, and software, is the property of ÉtherCode S.R.L. or its licensors and is protected by applicable intellectual property laws. Reproduction, distribution, or modification of this content without prior written authorization from ÉtherCode S.R.L. is strictly prohibited.
             </p>
 
             <h2 className="text-3xl font-bold mb-6">7. Legal Contact</h2>

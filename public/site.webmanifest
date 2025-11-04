@@ -1,6 +1,6 @@
 {
-  "name": "EtherCode",
-  "short_name": "EtherCode",
+  "name": "ÉtherCode",
+  "short_name": "ÉtherCode",
   "description": "Transformamos ideas en soluciones digitales. Especialistas en desarrollo web, asistentes de IA y automatización.",
   "lang": "es",
   "start_url": "/",
@@ -10,7 +10,7 @@
   "orientation": "portrait",
   "icons": [
     {
-      "src": "/img-logo/EtherCodeSlogan.png",
+      "src": "/img-logo/ÉtherCodeSlogan.png",
       "type": "image/png",
       "sizes": "512x512"
     },

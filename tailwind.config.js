@@ -20,7 +20,7 @@ module.exports = {
         scroll: "scroll 30s linear infinite",
       },
       colors: {
-        // Paleta profesional EtherCode
+        // Paleta profesional ÉtherCode
         primaryBg: "transparent",          // Fondo principal
         secondaryBg: "#121933",        // Cards y fondos intermedios
         primaryText: "#FFFFFF",        // Títulos, textos importantes

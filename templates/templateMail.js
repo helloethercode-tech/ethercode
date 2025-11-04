@@ -5,7 +5,7 @@ export const confirmationEmailTemplate = (email) => {
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Confirmar Suscripción - EtherCode</title>
+      <title>Confirmar Suscripción - ÉtherCode</title>
       <style>
         body {
           font-family: Arial, sans-serif;
@@ -67,7 +67,7 @@ export const confirmationEmailTemplate = (email) => {
     <body>
       <div class="container">
         <div class="header">
-          ¡Bienvenido a EtherCode!
+          ¡Bienvenido a ÉtherCode!
         </div>
         <div class="content">
           <h2>Confirma tu suscripción</h2>
@@ -76,7 +76,7 @@ export const confirmationEmailTemplate = (email) => {
           <p>Si cambiaste de opinión y no deseas recibir más información, puedes <a href="https://ethercode.com.ar/unsubscribe?email=${email}" class="unsubscribe">anular tu suscripción</a>.</p>
         </div>
         <div class="footer">
-          © 2024 EtherCode | Todos los derechos reservados.
+          © 2024 ÉtherCode | Todos los derechos reservados.
         </div>
       </div>
     </body>

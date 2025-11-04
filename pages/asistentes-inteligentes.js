@@ -74,27 +74,27 @@ const PageAsistentesIA = () => {
   return (
     <>
       <Head>
-        <title>Asistentes de IA para Empresas | EtherCode</title>
+        <title>Asistentes de IA para Empresas | ÉtherCode</title>
         <meta
           name="description"
-          content="Asistentes de inteligencia artificial personalizados para tu empresa. EtherCode te ayuda a automatizar procesos, mejorar atención al cliente y aumentar tus ventas con IA."
+          content="Asistentes de inteligencia artificial personalizados para tu empresa. ÉtherCode te ayuda a automatizar procesos, mejorar atención al cliente y aumentar tus ventas con IA."
         />
         <meta name="robots" content="index, follow" />
         <meta
           property="og:title"
-          content="Asistentes de IA para Empresas | EtherCode"
+          content="Asistentes de IA para Empresas | ÉtherCode"
         />
         <meta
           property="og:description"
           content="Automatizá tareas repetitivas, mejorá la atención al cliente y potenciá tu productividad con tecnología de vanguardia."
         />
-        <meta property="og:image" content="/img-logo/EtherCodeSlogan.png" />
+        <meta property="og:image" content="/img-logo/ÉtherCodeSlogan.png" />
         <meta
           property="og:url"
           content="https://www.ethercode.com.ar/asistentes-inteligentes"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content="/img-logo/EtherCodeSlogan.png" />
+        <meta name="twitter:image" content="/img-logo/ÉtherCodeSlogan.png" />
         <link rel="icon" href="/img-logo/ethercode-isotipo-turquoise-hd.ico" />
         <link
           rel="canonical"

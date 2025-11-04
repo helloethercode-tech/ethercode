@@ -17,7 +17,7 @@ const faqs = [
     badge: 'Acompañamiento 1:1',
   },
   {
-    pregunta: '¿Qué incluye exactamente el Kit Web de EtherCode?',
+    pregunta: '¿Qué incluye exactamente el Kit Web de ÉtherCode?',
     respuesta:
       'Una WebApp escalable con dominio .com.ar, SSL, SEO inicial, diseño responsive, contacto por WhatsApp, mapa, métricas y base técnica lista para crecer por módulos.',
     badge: 'Listo para Google',
@@ -168,7 +168,7 @@ export default function FAQsKit() {
           className="mt-8 text-center"
         >
           <a
-            href="https://wa.me/5493884136752?text=Hola%20EtherCode!%20Tengo%20una%20pregunta%20sobre%20el%20Kit%20Digital%20🙂"
+            href="https://wa.me/5493884136752?text=Hola%20ÉtherCode!%20Tengo%20una%20pregunta%20sobre%20el%20Kit%20Digital%20🙂"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center rounded-2xl px-6 py-3.5 min-h-[48px]

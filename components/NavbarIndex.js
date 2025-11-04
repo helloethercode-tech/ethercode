@@ -41,7 +41,7 @@ const Navbar = () => {
                   {/* Misma dimensión para dark/light, sin clases de width adicionales */}
                   <Image
                     src="/img-logo/ethercode-isotipo-white-256.png"
-                    alt="EtherCode"
+                    alt="ÉtherCode"
                     width={40}
                     height={40}
                     className="hidden dark:block"
@@ -49,13 +49,13 @@ const Navbar = () => {
                   />
                   <Image
                     src="/img-logo/ethercode-isotipo-black-1024.png"
-                    alt="EtherCode"
+                    alt="ÉtherCode"
                     width={40}
                     height={40}
                     className="block dark:hidden"
                     priority
                   />
-                  <span className="leading-none">EtherCode</span>
+                  <span className="leading-none">ÉtherCode</span>
                 </span>
               </Link>
 

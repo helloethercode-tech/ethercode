@@ -32,27 +32,27 @@ const PageEmpleadosDigitales = () => {
   return (
     <>
       <Head>
-        <title>Empleados Digitales con IA para negocios | EtherCode</title>
+        <title>Empleados Digitales con IA para negocios | ÉtherCode</title>
         <meta
           name="description"
           content="Contratá empleados digitales impulsados por IA para automatizar tareas, mejorar la atención al cliente y escalar tu negocio día y noche."
         />
         <meta
           name="keywords"
-          content="empleados digitales, automatización empresarial, bots WhatsApp, agentes inteligentes, atención día y noche, inteligencia artificial para negocios, automatizar tareas con IA, EtherCode"
+          content="empleados digitales, automatización empresarial, bots WhatsApp, agentes inteligentes, atención día y noche, inteligencia artificial para negocios, automatizar tareas con IA, ÉtherCode"
         />
 
         <meta
           property="og:title"
-          content="Empleados Digitales con IA para negocios | EtherCode"
+          content="Empleados Digitales con IA para negocios | ÉtherCode"
         />
         <meta
           property="og:description"
-          content="Soluciones con IA para automatizar ventas, operaciones y atención al cliente. EtherCode crea empleados digitales personalizados para tu empresa."
+          content="Soluciones con IA para automatizar ventas, operaciones y atención al cliente. ÉtherCode crea empleados digitales personalizados para tu empresa."
         />
         <meta
           property="og:image"
-          content="/img-logo/EtherCodeSlogan.png"
+          content="/img-logo/ÉtherCodeSlogan.png"
         />
         <meta
           property="og:url"
@@ -66,11 +66,11 @@ const PageEmpleadosDigitales = () => {
         />
         <meta
           name="twitter:description"
-          content="Conectá IA a tu negocio y operá día y noche con empleados digitales personalizados por EtherCode."
+          content="Conectá IA a tu negocio y operá día y noche con empleados digitales personalizados por ÉtherCode."
         />
         <meta
           name="twitter:image"
-          content="/img-logo/EtherCodeSlogan.png"
+          content="/img-logo/ÉtherCodeSlogan.png"
         />
 
         <link
@@ -80,7 +80,7 @@ const PageEmpleadosDigitales = () => {
         <link rel="icon" href="/img-logo/ethercode-isotipo-turquoise-hd.ico" />
 
         <meta name="robots" content="index, follow" />
-        <meta name="author" content="EtherCode" />
+        <meta name="author" content="ÉtherCode" />
 
         <meta
           name="search-questions"
@@ -92,16 +92,16 @@ const PageEmpleadosDigitales = () => {
             {
               "@context": "https://schema.org",
               "@type": "WebPage",
-              "name": "Empleados Digitales con IA para empresas | EtherCode",
-              "description": "EtherCode desarrolla empleados digitales para automatizar tareas, mejorar atención al cliente y aumentar la eficiencia empresarial con IA.",
+              "name": "Empleados Digitales con IA para empresas | ÉtherCode",
+              "description": "ÉtherCode desarrolla empleados digitales para automatizar tareas, mejorar atención al cliente y aumentar la eficiencia empresarial con IA.",
               "url": "https://www.ethercode.com.ar/asistentes",
               "publisher": {
                 "@type": "Organization",
-                "name": "EtherCode",
+                "name": "ÉtherCode",
                 "url": "https://www.ethercode.com.ar",
                 "logo": {
                   "@type": "ImageObject",
-                  "url": "https://www.ethercode.com.ar/img-logo/EtherCodeSlogan.png"
+                  "url": "https://www.ethercode.com.ar/img-logo/ÉtherCodeSlogan.png"
                 }
               }
             }

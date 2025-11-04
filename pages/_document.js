@@ -16,7 +16,7 @@ class MyDocument extends Document {
 
           {/* Favicon y Apple Icons */}
           <link rel="icon" href="/img-logo/ethercode-isotipo-turquoise-hd.ico" />
-          <link rel="apple-touch-icon" href="/img-logo/EtherCodeSlogan.png" />
+          <link rel="apple-touch-icon" href="/img-logo/ÉtherCodeSlogan.png" />
           {/* <link rel="manifest" href="/site.webmanifest" /> */}
 
           {/* Datos estructurados para SEO */}
@@ -61,7 +61,7 @@ class MyDocument extends Document {
               __html: JSON.stringify({
                 "@context": "https://schema.org",
                 "@type": "Organization",
-                "name": "EtherCode",
+                "name": "ÉtherCode",
                 "url": "https://ethercode.com.ar",
                 "logo": "https://ethercode.com.ar/logo.png",
                 "sameAs": [

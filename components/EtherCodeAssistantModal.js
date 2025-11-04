@@ -1,11 +1,11 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 
-export default function EtherCodeAssistantModal({
+export default function ÉtherCodeAssistantModal({
   open,
   onClose,
   showWelcome = true,
-  title = "Asistente de EtherCode",
+  title = "Asistente de ÉtherCode",
 }) {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
@@ -49,7 +49,7 @@ export default function EtherCodeAssistantModal({
             {
               sender: "bot",
               text:
-                "¡Hola! Soy Nexo 🧠, tu empleado digital de EtherCode. Decime qué querés lograr y lo resolvemos: cotizar, integrar WhatsApp, automatizar ventas o armar tu web/app 🚀",
+                "¡Hola! Soy Nexo 🧠, tu empleado digital de ÉtherCode. Decime qué querés lograr y lo resolvemos: cotizar, integrar WhatsApp, automatizar ventas o armar tu web/app 🚀",
             },
           ]
     );

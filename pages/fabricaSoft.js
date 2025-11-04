@@ -1,5 +1,5 @@
 // pages/fabricaSoft.js
-// Fábrica de Software — versión neuro-persuasiva + fondo coherente EtherCode
+// Fábrica de Software — versión neuro-persuasiva + fondo coherente ÉtherCode
 // Mantiene tecnologías y contenido clave, pero con copy que activa confianza y acción.
 
 import Container from "../components/container";
@@ -106,31 +106,31 @@ const FabricaSoft = () => {
   return (
     <>
       <Head>
-        <title>Fábrica de software a medida en Argentina – EtherCode</title>
+        <title>Fábrica de software a medida en Argentina – ÉtherCode</title>
         <meta
           name="description"
-          content="Desarrollo de software a medida en Argentina: EtherCode crea soluciones web y móviles adaptadas a tu empresa con metodologías ágiles. Solicita una consulta gratuita y conoce nuestros casos de éxito."
+          content="Desarrollo de software a medida en Argentina: ÉtherCode crea soluciones web y móviles adaptadas a tu empresa con metodologías ágiles. Solicita una consulta gratuita y conoce nuestros casos de éxito."
         />
         <meta
           property="og:title"
-          content="Fábrica de software a medida en Argentina – EtherCode"
+          content="Fábrica de software a medida en Argentina – ÉtherCode"
         />
         <meta
           property="og:description"
           content="Somos tu partner tecnológico. Creamos soluciones web, mobile y sistemas internos que potencian tu empresa."
         />
-        <meta property="og:image" content="/img-logo/EtherCodeSlogan.png" />
+        <meta property="og:image" content="/img-logo/ÉtherCodeSlogan.png" />
         <meta
           property="og:url"
           content="https://www.ethercode.com.ar/fabricaSoft"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content="/img-logo/EtherCodeSlogan.png" />
+        <meta name="twitter:image" content="/img-logo/ÉtherCodeSlogan.png" />
         <link rel="icon" href="/img-logo/ethercode-isotipo-turquoise-hd.ico" />
         <link rel="canonical" href="https://www.ethercode.com.ar/fabricaSoft" />
       </Head>
 
-      {/* LAYOUT + FONDO COHERENTE EtherCode */}
+      {/* LAYOUT + FONDO COHERENTE ÉtherCode */}
       <div
         className="min-h-screen text-white pt-20 relative overflow-hidden"
         style={{

@@ -1,6 +1,6 @@
 // CTAFinal.js — Versión neuro-psicológica de cierre
 // Objetivo: provocar acción inmediata + conexión emocional + confianza
-// Estilo: coherente con la estética EtherCode (gradientes, grilla, blur, energía digital)
+// Estilo: coherente con la estética ÉtherCode (gradientes, grilla, blur, energía digital)
 
 'use client';
 

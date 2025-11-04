@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import { motion, AnimatePresence } from "framer-motion";
 import { event } from "nextjs-google-analytics";
 import { useEffect, useMemo, useState } from "react";
-import EtherCodeAssistantModal from "../components/EtherCodeAssistantModal";
+import ÉtherCodeAssistantModal from "../components/ÉtherCodeAssistantModal";
 import Container from "./container";
 
 // === Animations ===
@@ -146,7 +146,7 @@ export default function HeroGrid(){
 
               <button
                 onClick={handleOpenAssistant}
-                aria-label="Hablar con el asistente de EtherCode"
+                aria-label="Hablar con el asistente de ÉtherCode"
                 className="relative w-full sm:w-auto inline-flex items-center justify-center rounded-2xl px-6 py-3.5 min-h-[52px]
                 text-white bg-gradient-to-r from-cyan-500/25 via-fuchsia-500/25 to-indigo-500/25
                 border border-white/20 ring-1 ring-white/30 shadow-lg shadow-black/10 transition will-change-transform
@@ -187,7 +187,7 @@ export default function HeroGrid(){
 
               {/* Header */}
               <div className="mb-4 flex items-center justify-between">
-                <div className="text-sm text-white/70">Asistente EtherCode</div>
+                <div className="text-sm text-white/70">Asistente ÉtherCode</div>
                 <div className="flex items-center gap-1">
                   <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
                   <span className="text-xs text-emerald-300/80">En línea</span>
@@ -260,7 +260,7 @@ export default function HeroGrid(){
         </Container>
 
         {/* MODAL */}
-        <EtherCodeAssistantModal open={isOpen} onClose={() => setIsOpen(false)} />
+        <ÉtherCodeAssistantModal open={isOpen} onClose={() => setIsOpen(false)} />
       </motion.section>
     </AnimatePresence>
   );

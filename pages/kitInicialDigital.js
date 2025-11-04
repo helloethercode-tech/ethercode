@@ -11,27 +11,27 @@ import CTAFinal from '../components/kitInicialDigital/CTAFinal';
 const PageKitInicial = () => {
   const handleCTAClick = () => {
     gaEvent('cta_kitInicial_click', { category: 'CTA', label: 'Kit Inicial - Empezar ahora' });
-    window.open('https://wa.me/5493884486112?text=Hola!%20Estoy%20interesado%20en%20el%20Kit%20Presencia%20Online%20de%20EtherCode%20💻', '_blank');
+    window.open('https://wa.me/5493884486112?text=Hola!%20Estoy%20interesado%20en%20el%20Kit%20Presencia%20Online%20de%20ÉtherCode%20💻', '_blank');
   };
 
   return (
     <>
       <Head>
-        <title>Kit Presencia Online para PYMEs y Emprendedores | EtherCode</title>
+        <title>Kit Presencia Online para PYMEs y Emprendedores | ÉtherCode</title>
         <meta
           name="description"
           content="Kit completo para tener presencia online: sitio web profesional, dominio .com.ar, certificado SSL, integración con WhatsApp y SEO básico. Ideal para emprendedores, freelancers y pymes argentinas."
         />
         <meta name="keywords" content="presencia online, página web para pymes, sitio web económico, desarrollo web Argentina, kit digital, web con whatsapp, dominio gratis, ssl incluido, SEO Google" />
         <meta name="robots" content="index, follow" />
-        <meta name="author" content="EtherCode" />
+        <meta name="author" content="ÉtherCode" />
 
         {/* Open Graph */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Kit Presencia Online para PYMEs y Emprendedores | EtherCode" />
+        <meta property="og:title" content="Kit Presencia Online para PYMEs y Emprendedores | ÉtherCode" />
         <meta
           property="og:description"
-          content="Lanzá tu presencia digital con EtherCode: diseño web, dominio, hosting y posicionamiento en Google. Solo 200 USD. En 7 días."
+          content="Lanzá tu presencia digital con ÉtherCode: diseño web, dominio, hosting y posicionamiento en Google. Solo 200 USD. En 7 días."
         />
         <meta property="og:image" content="https://www.ethercode.com.ar/img/logoKitInicial.png" />
         <meta property="og:url" content="https://www.ethercode.com.ar/kitinicial" />
@@ -59,7 +59,7 @@ const PageKitInicial = () => {
             description: "Kit digital para lanzar tu negocio en Internet. Incluye sitio web profesional, dominio .com.ar, hosting, certificado SSL y posicionamiento SEO básico.",
             brand: {
               "@type": "Organization",
-              name: "EtherCode"
+              name: "ÉtherCode"
             },
             offers: {
               "@type": "Offer",

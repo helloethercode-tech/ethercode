@@ -8,11 +8,11 @@ const OrganizationJSONLD = () => (
       __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Organization",
-        name: "EtherCode",
+        name: "ÉtherCode",
         url: "https://www.ethercode.com.ar",
-        logo: "https://www.ethercode.com.ar/img-logo/EtherCodeSlogan.png",
+        logo: "https://www.ethercode.com.ar/img-logo/ÉtherCodeSlogan.png",
         description:
-          "EtherCode ofrece soluciones tecnológicas innovadoras para impulsar tu negocio.",
+          "ÉtherCode ofrece soluciones tecnológicas innovadoras para impulsar tu negocio.",
         contactPoint: {
           "@type": "ContactPoint",
           telephone: "+549 38843988439",

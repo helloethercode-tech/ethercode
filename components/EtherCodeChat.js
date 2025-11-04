@@ -1,8 +1,8 @@
-// components/EtherCodeChat.js
+// components/ÉtherCodeChat.js
 "use client";
 import { useState, useRef, useEffect } from "react";
 
-export default function EtherCodeChat() {
+export default function ÉtherCodeChat() {
   const [msgs, setMsgs] = useState([]);
   const [input, setInput] = useState("");
   const sessionIdRef = useRef(null);
@@ -39,7 +39,7 @@ export default function EtherCodeChat() {
 
   return (
     <div className="fixed bottom-4 right-4 w-80 rounded-2xl shadow-xl bg-neutral-900 text-neutral-100 p-3">
-      <div className="text-sm font-semibold mb-2">EtherCode – Asistente</div>
+      <div className="text-sm font-semibold mb-2">ÉtherCode – Asistente</div>
       <div className="h-64 overflow-y-auto space-y-2 text-sm">
         {msgs.map((m, i) => (
           <div key={i} className={m.role === "user" ? "text-right" : "text-left"}>

@@ -39,7 +39,7 @@ const NuestrosClientes = () => {
             Conocé a quienes confían en nosotros
           </h2>
           <p className="text-secondaryText text-lg mb-12">
-            Empresas y organizaciones que potencian sus procesos con EtherCode
+            Empresas y organizaciones que potencian sus procesos con ÉtherCode
           </p>
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 items-center justify-center">
