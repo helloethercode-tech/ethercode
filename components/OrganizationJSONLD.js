@@ -10,7 +10,7 @@ const OrganizationJSONLD = () => (
         "@type": "Organization",
         name: "ÉtherCode",
         url: "https://www.ethercode.com.ar",
-        logo: "https://www.ethercode.com.ar/img-logo/ÉtherCodeSlogan.png",
+        logo: "https://www.ethercode.com.ar/img-logo/logonombre.png",
         description:
           "ÉtherCode ofrece soluciones tecnológicas innovadoras para impulsar tu negocio.",
         contactPoint: {

@@ -5,7 +5,7 @@ import Container from "../container";
 
 const logos = [
   "/clientes/jb.svg",
-  "/clientes/tesai.svg",
+  "/clientes/TESAI.svg",
   "/clientes/plazachess.svg",
   "/clientes/lumiq.svg",
   "/clientes/wolf.svg",
@@ -32,25 +32,24 @@ const LogoSlider = () => {
             className="flex gap-16 items-center w-max"
             style={{ willChange: "transform" }}
             animate={{ x: ["0%", "-50%"] }}
-            transition={{ repeat: Infinity, duration: 30, ease: "linear" }}
+            transition={{ repeat: Infinity, duration: 15, ease: "linear" }}
           >
             {track.map((src, i) => {
               const isClone = i >= unique.length; // segunda mitad
               return (
                 <div
-                  key={`${src}-${isClone ? "clone" : "orig"}-${i}`}
-                  className="flex-shrink-0 flex items-center justify-center w-[180px] h-[80px] min-w-[180px]"
-                  aria-hidden={isClone} // 4) clones no “cuentan”
-                >
-                  <Image
-                    src={src}
-                    alt={`Logo ${src.split("/").pop()?.replace(".svg", "")}`}
-                    width={180}
-                    height={80}
-                    sizes="180px"
-                    className="object-contain max-h-16"
-                  />
-                </div>
+                    key={`${src}-${isClone ? "clone" : "orig"}-${i}`}
+                    className="relative flex-shrink-0 w-[180px] h-[80px] flex items-center justify-center"
+                    aria-hidden={isClone}
+                  >
+                    <Image
+                      src={src}
+                      alt={`Logo ${src.split("/").pop()?.replace(".svg", "")}`}
+                      fill
+                      sizes="180px"
+                      className="object-contain"
+                    />
+                  </div>
               );
             })}
           </motion.div>

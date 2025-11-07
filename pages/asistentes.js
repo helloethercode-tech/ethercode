@@ -52,7 +52,7 @@ const PageEmpleadosDigitales = () => {
         />
         <meta
           property="og:image"
-          content="/img-logo/ÉtherCodeSlogan.png"
+          content="/img-logo/logonombre.png"
         />
         <meta
           property="og:url"
@@ -70,7 +70,7 @@ const PageEmpleadosDigitales = () => {
         />
         <meta
           name="twitter:image"
-          content="/img-logo/ÉtherCodeSlogan.png"
+          content="/img-logo/logonombre.png"
         />
 
         <link
@@ -101,7 +101,7 @@ const PageEmpleadosDigitales = () => {
                 "url": "https://www.ethercode.com.ar",
                 "logo": {
                   "@type": "ImageObject",
-                  "url": "https://www.ethercode.com.ar/img-logo/ÉtherCodeSlogan.png"
+                  "url": "https://www.ethercode.com.ar/img-logo/logonombre.png"
                 }
               }
             }

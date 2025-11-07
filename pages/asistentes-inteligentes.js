@@ -88,13 +88,13 @@ const PageAsistentesIA = () => {
           property="og:description"
           content="Automatizá tareas repetitivas, mejorá la atención al cliente y potenciá tu productividad con tecnología de vanguardia."
         />
-        <meta property="og:image" content="/img-logo/ÉtherCodeSlogan.png" />
+        <meta property="og:image" content="/img-logo/logonombre.png" />
         <meta
           property="og:url"
           content="https://www.ethercode.com.ar/asistentes-inteligentes"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content="/img-logo/ÉtherCodeSlogan.png" />
+        <meta name="twitter:image" content="/img-logo/logonombre.png" />
         <link rel="icon" href="/img-logo/ethercode-isotipo-turquoise-hd.ico" />
         <link
           rel="canonical"

@@ -7,6 +7,7 @@ class MyDocument extends Document {
     return (
       <Html lang="es" dir="ltr" data-theme="dark" class="dark" suppressHydrationWarning>
         <Head>
+          <link rel="manifest" href="/site.webmanifest" />
           {/* Metadatos esenciales */}
           <meta charSet="UTF-8" />
           <meta name="color-scheme" content="dark" />
@@ -18,9 +19,9 @@ class MyDocument extends Document {
 
           {/* Favicon y Apple Icons */}
           <link rel="icon" href="/img-logo/ethercode-isotipo-turquoise-hd.ico" />
-          <link rel="apple-touch-icon" href="/img-logo/ÉtherCodeSlogan.png" />
+          <link rel="apple-touch-icon" href="/img-logo/logonombre.png" />
           {/* <link rel="manifest" href="/site.webmanifest" /> */}
-
+          <meta name="mobile-web-app-capable" content="yes" />
           {/* Datos estructurados para SEO */}
           <OrganizationJSONLD />
           <WebsiteJSONLD />

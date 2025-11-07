@@ -109,7 +109,7 @@ const Home = () => {
           property="og:description"
           content="Tu negocio nunca se detiene. ÉtherCode crea empleados digitales impulsados por IA que automatizan tareas, ventas y atención al cliente 24/7."
         />
-        <meta property="og:image" content="https://ethercode.com.ar/img-logo/ÉtherCodeSlogan.png" />
+        <meta property="og:image" content="https://ethercode.com.ar/img-logo/logonombre.png" />
         <meta property="og:url" content="https://www.ethercode.com.ar" />
         <meta property="og:site_name" content="ÉtherCode" />
         <meta property="og:type" content="website" />
@@ -121,7 +121,7 @@ const Home = () => {
           name="twitter:description"
           content="Automatizá tu negocio con asistentes inteligentes y empleados virtuales IA. Tecnología, innovación y eficiencia 24/7."
         />
-        <meta name="twitter:image" content="https://ethercode.com.ar/img-logo/ÉtherCodeSlogan.png" />
+        <meta name="twitter:image" content="https://ethercode.com.ar/img-logo/logonombre.png" />
 
         {/* 🔍 PREGUNTAS SEMÁNTICAS (BERT / LLM SEO) */}
         <meta
@@ -138,7 +138,7 @@ const Home = () => {
               "@type": "Organization",
               "name": "ÉtherCode",
               "url": "https://www.ethercode.com.ar",
-              "logo": "https://ethercode.com.ar/img-logo/ÉtherCodeSlogan.png",
+              "logo": "https://ethercode.com.ar/img-logo/logonombre.png",
               "sameAs": [
                 "https://www.instagram.com/ethercode",
                 "https://www.linkedin.com/company/ethercode",
