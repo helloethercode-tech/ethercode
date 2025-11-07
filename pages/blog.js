@@ -3,7 +3,7 @@ import Container from '../components/container';
 import Footer from '../components/footer';
 import Head from "next/head";
 import NewsCardExternal from '../components/newCardExternal';
-import NewsCardÉtherCode from '../components/NewsCardÉtherCode';
+import NewsCardÉtherCode from '../components/NewsCardEtherCode';
 import { blogPosts } from '../data/blogPosts';
 
 const BlogPage = () => {
