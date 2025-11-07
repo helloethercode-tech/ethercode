@@ -15,9 +15,6 @@ export default async function handler(req, res) {
 
     // Obtener todos los emails de la tabla newsletter
     const { rows: subscribers } = await pool.sql`SELECT email FROM newsletter`;
-
-    console.log('subscribers', subscribers);
-
     if (subscribers.length === 0) {
       return res.status(404).json({ error: 'No hay suscriptores en la base de datos.' });
     }

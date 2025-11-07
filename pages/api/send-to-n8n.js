@@ -54,7 +54,6 @@ export default async function handler(req, res) {
     } else {
       n8nData = { reply: await r.text().catch(() => "") };
     }
-    console.log('n8nData', n8nData);
 
     if (!r.ok) {
       return res.status(502).json({ ok: false, error: `n8n ${r.status}`, n8n: n8nData });

@@ -89,8 +89,6 @@ export default function ÉtherCodeAssistantModal({
       }),
     });
     if (!res.ok) throw new Error(await res.text().catch(() => "n8n error"));
-    console.log('res', res);
-    console.log('res body', res.body);
     return res.json();
   }
 

@@ -15,7 +15,6 @@ export default async function handler(req, res) {
       });
       const article = response.articles.find(article => article.id === parseInt(id));
       if (article) {
-      console.log('article', article);
         res.status(200).json(article);
       } else {
         res.status(404).json({ error: 'Noticia no encontrada.' });
