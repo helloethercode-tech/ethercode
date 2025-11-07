@@ -5,7 +5,7 @@ import WebsiteJSONLD from "../components/WebsiteJSONLD";
 class MyDocument extends Document {
   render() {
     return (
-      <Html lang="es" dir="ltr">
+      <Html lang="es" dir="ltr" class="dark" className="dark">
         <Head>
           {/* Metadatos esenciales */}
           <meta charSet="UTF-8" />
@@ -73,7 +73,7 @@ class MyDocument extends Document {
           />
         </Head>
 
-        <body class="dark">
+        <body className="dark" class="dark">
           <Main />
           <NextScript />
         </body>
