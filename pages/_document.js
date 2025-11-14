@@ -7,6 +7,31 @@ class MyDocument extends Document {
     return (
       <Html lang="es" dir="ltr" data-theme="dark" class="dark" suppressHydrationWarning>
         <Head>
+          {/* ------- META TAGS PARA COMPARTIR (OG + TWITTER) ------- */}
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://ethercode.com.ar/" />
+          <meta property="og:title" content="ÉtherCode — Inteligencia Artificial y Desarrollo Web en Argentina" />
+          <meta property="og:description" content="Creamos agentes de IA, automatizaciones y webs de alto rendimiento. Aumenta ventas, reduce costos y escalá tu negocio con soluciones reales." />
+          <meta property="og:image" content="https://ethercode.com.ar/img-logo/EtherCode.png" />
+          <meta property="og:image:alt" content="Logo de ÉtherCode" />
+          <meta property="og:site_name" content="ÉtherCode" />
+
+          {/* Para WhatsApp y Facebook */}
+          <meta property="og:image:width" content="1200" />
+          <meta property="og:image:height" content="630" />
+
+          {/* ------- TWITTER CARD ------- */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="ÉtherCode — Soluciones de IA y Desarrollo Web" />
+          <meta name="twitter:description" content="Impulsamos empresas con inteligencia artificial, automatización y webs ultra rápidas." />
+          <meta name="twitter:image" content="https://ethercode.com.ar/img-logo/EtherCode.png" />
+          <meta name="twitter:image:alt" content="Logo de ÉtherCode" />
+
+          {/* ------- SEO GENERAL ------- */}
+          <meta name="description" content="ÉtherCode crea agentes de inteligencia artificial, automatizaciones y desarrollo web profesional para empresas de Argentina y Latinoamérica. Multiplica tus ventas y reduce tus costos con tecnología real." />
+
+          <link rel="canonical" href="https://ethercode.com.ar/" />
+
           <link rel="manifest" href="/site.webmanifest" />
           {/* Metadatos esenciales */}
           <meta charSet="UTF-8" />
@@ -19,7 +44,7 @@ class MyDocument extends Document {
 
           {/* Favicon y Apple Icons */}
           <link rel="icon" href="/img-logo/ethercode-isotipo-turquoise-hd.ico" />
-          <link rel="apple-touch-icon" href="/img-logo/logonombre.png" />
+          <link rel="apple-touch-icon" href="/img-logo/EtherCode.png" />
           {/* <link rel="manifest" href="/site.webmanifest" /> */}
           <meta name="mobile-web-app-capable" content="yes" />
           {/* Datos estructurados para SEO */}
